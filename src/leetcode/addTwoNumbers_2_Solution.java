@@ -12,15 +12,20 @@ public class addTwoNumbers_2_Solution {
             tail.next = tmp;
             tail = tmp;
             level = (x + y + level) / 10;
-            if (l1!=null)
+            if (l1 != null)
                 l1 = l1.next;
-            if (l2!=null)
+            if (l2 != null)
                 l2 = l2.next;
         }
-        if(level!=0){
+        if (level != 0) {
             ListNode tmp = new ListNode(1);
             tail.next = tmp;
         }
         return head.next;
+    }
+
+
+    public ListNode addTwoNumbers2(ListNode l1, ListNode l2) {
+        return null;
     }
 }

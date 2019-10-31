@@ -3,7 +3,7 @@ package leetcode;
 import java.util.HashMap;
 import java.util.Map;
 
-public class lengthOfLongestSubstring_2_Solution {
+public class lengthOfLongestSubstring_3_Solution {
     public int lengthOfLongestSubstring(String s) {
         int ans = 0;
         int head = 0;

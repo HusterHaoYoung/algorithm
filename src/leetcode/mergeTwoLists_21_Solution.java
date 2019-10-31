@@ -3,7 +3,7 @@ package leetcode;
 方法一：迭代法
 关键：新建一个假头结点用来解决链表头结点
 
-测试ignore
+测试ignore1
 * */
 public class mergeTwoLists_21_Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

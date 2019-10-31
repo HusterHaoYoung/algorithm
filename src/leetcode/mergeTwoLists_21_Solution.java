@@ -2,6 +2,8 @@ package leetcode;
 /*有序链表合并
 方法一：迭代法
 关键：新建一个假头结点用来解决链表头结点
+
+测试ignore
 * */
 public class mergeTwoLists_21_Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

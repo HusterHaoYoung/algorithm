@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("helloworld");
+        System.out.println("helloworld".substring(0,2));
     }
 
     public int lengthOfLongestSubstring(String s) {

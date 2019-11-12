@@ -7,6 +7,7 @@ LeetCode
 
 | # | Title | Solution | Difficulty |Keys|
 |---| ----- | -------- | ---------- |----|
+|8|[字符串转换整数](https://leetcode-cn.com/problems/string-to-integer-atoi/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/myAtoi_8_Solution.java)|medium|注意数字越界问题，跳过空格，使用set集合判断是否是数字|
 |7|[整数反转](https://leetcode-cn.com/problems/reverse-integer/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/reverse_7_Solution.java)|easy|注意大数越界情况即可|
 |6|[Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/submissions/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/convert_6_Solution.java)|medium|按行进行排序，rowNums行的字符容器，当到底或者到头时改变方向添加|
 |5|[最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/longestPalindrome_5_Solution.java)|medium|1.最长公共子串法，即将字符串倒转过来之后与原字符串求最长公共子串，需要注意匹配上后还需检查是否是原字符串倒转前的位置<br>2.中心扩散法|

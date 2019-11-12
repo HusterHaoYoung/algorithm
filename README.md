@@ -7,6 +7,8 @@ LeetCode
 
 | # | Title | Solution | Difficulty |Keys|
 |---| ----- | -------- | ---------- |----|
+|11|[盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/maxArea_11_Solution.java)|medium|双指针法：短的往中间移|
+|9|[回文数](https://leetcode-cn.com/problems/palindrome-number/solution/hui-wen-shu-by-leetcode/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/isPalindrome_9_Solution.java)|easy|反转一般的数字，判断反转后的数字和剩下的数字是否相等（偶数位数），或者除10是否相等（奇数位数）|
 |8|[字符串转换整数](https://leetcode-cn.com/problems/string-to-integer-atoi/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/myAtoi_8_Solution.java)|medium|注意数字越界问题，跳过空格，使用set集合判断是否是数字|
 |7|[整数反转](https://leetcode-cn.com/problems/reverse-integer/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/reverse_7_Solution.java)|easy|注意大数越界情况即可|
 |6|[Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/submissions/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/convert_6_Solution.java)|medium|按行进行排序，rowNums行的字符容器，当到底或者到头时改变方向添加|

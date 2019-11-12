@@ -5,11 +5,11 @@ public class reverse_7_Solution {
         int resNum = 0;
         while (x != 0) {
             int tmp = x % 10;
-            if (resNum == Integer.MAX_VALUE || (resNum == Integer.MAX_VALUE / 10 && tmp > Integer.MAX_VALUE % 10)) {
+            if (resNum > Integer.MAX_VALUE / 10 || (resNum == Integer.MAX_VALUE / 10 && tmp > Integer.MAX_VALUE % 10)) {
                 resNum = 0;
                 break;
             }
-            if (resNum == Integer.MIN_VALUE || (resNum == Integer.MIN_VALUE / 10 && tmp < Integer.MIN_VALUE % 10)) {
+            if (resNum < Integer.MIN_VALUE / 10 || (resNum == Integer.MIN_VALUE / 10 && tmp < Integer.MIN_VALUE % 10)) {
                 resNum = 0;
                 break;
             }

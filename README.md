@@ -7,6 +7,7 @@ LeetCode
 
 | # | Title | Solution | Difficulty |Keys|
 |---| ----- | -------- | ---------- |----|
+|13|[罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/submissions/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/romanToInt_13_Solution.java)|easy|12题的变形|
 |12|[整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/submissions/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/intToRoman_12_Solution.java)|medium|使用数组储存常量使代码简约|
 |11|[盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/maxArea_11_Solution.java)|medium|双指针法：短的往中间移|
 |9|[回文数](https://leetcode-cn.com/problems/palindrome-number/solution/hui-wen-shu-by-leetcode/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/isPalindrome_9_Solution.java)|easy|反转一般的数字，判断反转后的数字和剩下的数字是否相等（偶数位数），或者除10是否相等（奇数位数）|

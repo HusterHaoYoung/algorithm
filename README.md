@@ -7,6 +7,8 @@ LeetCode
 
 | # | Title | Solution | Difficulty |Keys|note|
 |---| ----- | -------- | ---------- |----|----|
+|25|[K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/p025_reverseKGroup.java)|hard|24题的变式，使用一个指针记录上一次翻转的尾节点，一个指针记录这一次翻转的尾节点，注意翻转一次后链表断裂|链表|
+|24|[两两交换链表中的节点 ](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/p024_swapPairs.java)|medium|使用一个tail指针每次记录上一次交换的指针位置,新建一个虚拟头结点来解决头结点交换问题|链表|
 |21|[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/hua-jie-suan-fa-21-he-bing-liang-ge-you-xu-lian-bi/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/p021_mergeTwoLists.java)|easy|方法一：迭代法，使用一个假的头结点简化代码。<br>方法二：递归法，终止条件：l1为空或者l2为空。递归体：链表头选择与连接。|链表、递归|
 |20|[有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/p020_isVaild.java)|easy|使用栈，左括号进栈，右括号出栈匹配|栈|
 |19|[删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/p019_removeNthFromEnd.java)|medium|快慢指针法达到一次循环解决问题，即快指针先走n - 1步，快指针走到最后一个节点时，慢指针即为要删除节点，使用一个临时变量存储慢指针的前一个指针即可|快慢指针法|

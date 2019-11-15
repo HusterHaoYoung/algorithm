@@ -1,25 +1,6 @@
 package leetcode;
 
 public class p206_reverseList {
-    public ListNode myReverseList(ListNode head) {
-        if (head == null || head.next == null)
-            return head;
-        ListNode pHead = new ListNode(-1);
-        pHead.next = head;
-        ListNode h = head;
-        ListNode tail = head;
-        ListNode tmp = head.next;
-        while (tmp != null) {
-            ListNode next = tmp.next;
-            tmp.next = h;
-            tail.next = next;
-            h = tmp;
-            tmp = next;
-        }
-        pHead.next = h;
-        return pHead.next;
-    }
-
     public ListNode reverseListRecursive(ListNode head) {
         if (head == null || head.next == null)
             return head;

@@ -7,6 +7,7 @@ LeetCode
 
 | # | Title | Solution | Difficulty |Keys|note|
 |---| ----- | -------- | ---------- |----|----|
+|54|[螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/submissions/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/p054_spiralOrder.java)|medium|使用一个level变量记录循环层数，分为四个方向的循环，即右下左上，每循环一次判断是否该退出循环|数组、模拟|
 |25|[K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/p025_reverseKGroup.java)|hard|24题的变式，使用一个指针记录上一次翻转的尾节点，一个指针记录这一次翻转的尾节点，注意翻转一次后链表断裂|链表|
 |24|[两两交换链表中的节点 ](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/p024_swapPairs.java)|medium|使用一个tail指针每次记录上一次交换的指针位置,新建一个虚拟头结点来解决头结点交换问题|链表|
 |21|[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/hua-jie-suan-fa-21-he-bing-liang-ge-you-xu-lian-bi/) | [Java](https://github.com/HusterHaoYoung/algorithm/blob/master/src/leetcode/p021_mergeTwoLists.java)|easy|方法一：迭代法，使用一个假的头结点简化代码。<br>方法二：递归法，终止条件：l1为空或者l2为空。递归体：链表头选择与连接。|链表、递归|
